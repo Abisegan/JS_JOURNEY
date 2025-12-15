@@ -1,4 +1,6 @@
+
 //This is a comment!
+
 
 /* 
 This
@@ -11,10 +13,16 @@ comment
 
 /* This is a multi-line comment on a single line. */
 
+
 console.log("Hello World");
+
+
 console.log("%cHello World", "colour: blue; font-size: 40px");
+
+
 console.log("Hello " + "there" + " world");// " +concatenation operator"
-console.log("Hello","there","world"); /* 
+console.log("Hello","there","world");
+/* 
 Using , in console.log does not combine the arguments into a single string but outputs them as separate
- values, automatically adding a space between them. This behavior contrasts with +, which concatenates
-  all pieces into a single string without adding spaces unless explicitly included. */
+values, automatically adding a space between them. This behavior contrasts with +, which concatenates
+all pieces into a single string without adding spaces unless explicitly included. */
