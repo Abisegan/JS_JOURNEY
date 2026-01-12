@@ -1,0 +1,39 @@
+for (let i = 1; i <= 5; i++) {
+
+    if (i == 3) {
+        break; /* stop when i is 3 */
+    }
+    console.log(i);
+}
+/* output: 1, 2 */
+
+var light = "green";
+
+if (light == "green") {
+    console.log("Drive");
+} else if (light == "orange") { 
+    console.log("Get ready");
+} else if (light == "red") {
+    console.log("Don't drive")
+} else {
+    console.log("The light is not green, orange, or red");
+}
+
+
+switch (light) {
+    case "green":
+        console.log("Drive");
+        break;
+
+    case "orange":
+        console.log("Get ready");
+        break;
+
+    case "red":
+        console.log("Don't drive");
+        break;
+        
+    default:
+        cosole.log("The light is not green, orange, or red");    
+
+}
