@@ -1,0 +1,18 @@
+var clothes = [];
+clothes.push("shirt");
+clothes.push("t-shirt");
+clothes.push("shorts");
+clothes.push("panjabi");
+clothes.push("frock");
+
+console.log(clothes);
+clothes.pop();
+console.log(clothes);
+clothes.push("full-shirt");
+console.log(clothes[2]);
+
+
+favCar = {};
+favCar.color = "green";
+favCar.state = 0;
+console.log(favCar);

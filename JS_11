@@ -1,0 +1,34 @@
+var assistantManager = {
+    rangeTilesPerTurn: 3,
+    socialSkills: 30,
+    streetSmart: 30,
+    health: 40,
+    spcialAbility: "young and ambitious",
+    greeting: "Let's make some money"
+}
+console.log(assistantManager);
+
+var Table = {
+    legs: 3,
+    colour: "Brown",
+    priceUSD: 100
+
+}
+console.log(Table);
+console.log(Table.colour);
+
+var house = {
+    room: 3,
+    colour: "Brown",
+    priceUSD: 10000
+}
+var house2 = {};
+house2.room = 4;
+house2.colour = "pink";
+
+console.log(house);
+house.windows = 10;
+console.log(house);
+
+house.window = 11;
+console.log(house.window);
